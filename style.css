@@ -1,0 +1,301 @@
+.splash {
+  position: relative;
+  height: 70vh;
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url("https://i.postimg.cc/Dw9z5Frz/foto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.page-intro {
+  margin-top: 70px;
+  margin-left: 70px;
+  text-align: left;
+}
+
+.main-title {
+  margin: 0;
+  font-weight: 600;
+  color: #e74c3c;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 3px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 24px;
+  Font-Family: "Raleway", Sans-Serif;
+  Font-Size: 40px;
+}
+
+.main-subtitle {
+  margin: 12px 0 60px 0;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: italic;
+  color: #ffffff;
+  Font-Family: "Open Sans", Sans-Serif;
+  Font-Size: 25px;
+}
+
+.btn {
+  padding: 15px 50px 18px;
+  font-size: 14px;
+  background-color: #ce2b37;
+  color: #ffffff;
+  box-shadow: 3px 3px 12px 4px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #15977e;
+  color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: none;
+}
+
+body, html {
+  color: #444444;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  height: 100%;
+  font-family: Sans-Serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #ce2b37;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  position: relative;
+  margin: 0 0 60px 0;
+  text-align: center;
+  color: #d35400;
+  Font-Family: "Raleway";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-title:after {
+  position: absolute;
+  display: block;
+  content: "***";
+  width: 150px;
+  height: 3px;
+  background: #16a085;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -75px;
+}
+
+.about {
+  background-color: #f2f2f2;
+}
+
+.section-intro {
+  margin: 36px 0 0 0;
+  color: #5e5e5e;
+  text-align: center;
+  font-size: 18px;
+}
+
+.features-wrapper {
+  display: flex;
+}
+
+.feature {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+
+.feature i {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  color: #ffffff;
+  font-size: 40px;
+  background-color: #ce2b37;
+  border-radius: 50%;
+  box-shadow: 5px 3px #107360;
+}
+
+.feature-title {
+  margin: 24px 0 0 0;
+  color: #16a085;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.feature-description {
+  margin: 24px 0 0 0;
+  padding: 0 24px;
+  font-size: 14px;
+}
+
+.statement {
+  background-image: url("https://i.postimg.cc/Mp19fKjV/pexels-david-kooijman-3591318.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.statement p {
+  margin: 0;
+  font-family: Sans-Serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.quotes {
+  background-color: #f7f7f7;
+}
+
+.quotes-wrapper {
+  margin: 72px 0 0 0;
+  color: #16a085;
+}
+
+.quote blockquote {
+  padding: 0 36px;
+}
+
+.quote footer {
+  margin: 8px 0 0 0;
+  color: #000000;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.section.gallery {
+  padding: 60px 0 0 0;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 72px 0 0 0;
+}
+
+.gallery-item {
+  position: relative;
+  margin: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.gallery-item:before {
+  position: absolute;
+  display: none;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+}
+
+.gallery-item figcaption {
+  position: absolute;
+  display: none;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-40%);
+  color: f000000;
+  font-family: Sans-Serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.gallery-item:hover:before, .gallery-item:hover figcaption {
+  display: block;
+}
+
+.contact {
+  text-align: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  border: 1px solid #ce2b37;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.social-links li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page-footer {
+  padding: 16px 0;
+  font-size: 12px;
+  background: #eaeaea;
+}
+
+.page-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer p {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .features-wrapper {
+    display: block;
+  }
+
+  .feature {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
